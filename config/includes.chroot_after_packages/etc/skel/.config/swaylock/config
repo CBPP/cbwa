@@ -1,0 +1,45 @@
+
+# misc
+show-failed-attempts
+indicator-thickness=10
+
+# image
+image=~/.config/swaylock/bg.png
+scaling=center
+
+# colors
+color=171717
+ring-color=272727
+text-color=c7c7c7
+inside-color=00000000
+line-color=00000000
+
+# keypress colors
+bs-hl-color=171717
+caps-lock-bs-hl-color=171717
+caps-lock-key-hl-color=c7c7c7
+key-hl-color=c7c7c7
+
+# notification colors
+ring-clear-color=272727
+ring-caps-lock-color=272727
+ring-ver-color=272727
+ring-wrong-color=272727
+
+# text colors
+text-clear-color=c7c7c7
+text-caps-lock-color=c7c7c7
+text-ver-color=c7c7c7
+text-wrong-color=c7c7c7
+
+# inside colors
+inside-clear-color=00000000
+inside-caps-lock-color=00000000
+inside-ver-color=00000000
+inside-wrong-color=00000000
+
+# line colors
+line-clear-color=00000000
+line-caps-lock-color=0000000
+line-ver-color=00000000
+line-wrong-color=00000000

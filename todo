@@ -1,0 +1,12 @@
+
+obsidian-icon-theme (gray)
+nwg-bar (cbpp-exit replacement?)
+fork grimshot (remove swaymsg dependent things) + pipemenus
+move cbpp theme out of /etc/skel/.local
+live user autologin
+put user into video and input groups?
+labwc hotkeys
+ci image builder
+investigate: xwayland busted cursor
+cpu monitor seems to show user cpu, not system cpu (/usr/share/sfwbar/cpu.source -- XCpuSystem)
+thin out the window theme maybe

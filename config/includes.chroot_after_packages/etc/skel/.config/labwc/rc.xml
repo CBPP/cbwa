@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+
+<!--
+  This is a very simple config file with many options missing. For a complete
+  set of options with comments, see docs/rc.xml.all
+-->
+
+<labwc_config>
+
+  <theme>
+    <name>cbpp</name>
+    <dropShadows>yes</dropShadows>
+    <cornerRadius>0</cornerRadius>
+    <font place="OnScreenDisplay" name="Liberation Sans" size="10"/>
+    <font place="MenuItem" name="Liberation Sans" size="10"/>
+    <font place="ActiveWindow" name="Liberation Sans" size="10" weight="bold"/>
+    <font place="InactiveWindow" name="Liberation Sans" size="10"/>
+  </theme>
+
+  <placement>
+    <policy>automatic</policy>
+  </placement>
+
+  <keyboard>
+    <default />
+    <keybind key="W-l" name.action="Execute" command.action="swaylock"/>
+    <!-- <keybind key="W-l" name.action="Execute" command.action="swaylock -F -l -i ~/.config/swaylock/bg.png -s center -c 000000"/>
+    Use a different terminal emulator -->
+    <keybind key="W-Return">
+      <action name="Execute" command="x-terminal-editor" />
+    </keybind>
+    <!--
+      Remove a previously defined keybind
+      A shorter alternative is <keybind key="W-F4" />
+    -->
+    <keybind key="W-F4">
+      <action name="None" />
+    </keybind>
+  </keyboard>
+
+  <mouse>
+    <default />
+    <!-- Show a custom menu on desktop right click -->
+    <context name="Root">
+      <mousebind button="Right">
+	<action name="None" />
+      </mousebind>
+    </context>
+  </mouse>
+
+</labwc_config>
