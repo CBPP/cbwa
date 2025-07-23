@@ -1,0 +1,5 @@
+#!/bin/sh
+
+DATE=$(date --iso-8601=seconds)
+
+grimshot save area ~/images/$DATE.png && viewnior ~/images/$DATE.png
