@@ -26,16 +26,8 @@
     <keybind key="W-l" name.action="Execute" command.action="swaylock"/>
     <!-- <keybind key="W-l" name.action="Execute" command.action="swaylock -F -l -i ~/.config/swaylock/bg.png -s center -c 000000"/>
     Use a different terminal emulator -->
-    <keybind key="W-Return">
-      <action name="Execute" command="x-terminal-editor" />
-    </keybind>
-    <!--
-      Remove a previously defined keybind
-      A shorter alternative is <keybind key="W-F4" />
-    -->
-    <keybind key="W-F4">
-      <action name="None" />
-    </keybind>
+    <keybind key="W-t" name.action="Execute" command.action="x-terminal-editor" />
+    <keybind key="W-r" name.action="Execute" command.action="bemenu-run -b"/>
   </keyboard>
 
   <mouse>

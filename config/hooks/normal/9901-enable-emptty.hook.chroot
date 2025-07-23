@@ -2,5 +2,4 @@
 
 set -e
 
-# todo -- configure auto-login for live user
-systemctl enable emptty@tty8.service
+systemctl enable emptty@tty7.service

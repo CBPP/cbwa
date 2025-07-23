@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# source /etc/profile does not have any effect
+. ~/.profile
+. ~/.bashrc
+
+Environment=wayland
+exec dbus-launch labwc

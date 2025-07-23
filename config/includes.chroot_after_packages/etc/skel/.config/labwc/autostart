@@ -34,3 +34,5 @@ swayidle -w \
 	timeout 600 'wlopm --off \*' \
 	resume 'wlopm --on \*' \
 	before-sleep 'swaylock -f -c 171717' >/dev/null 2>&1 &
+
+powerprofilesctl set power-saver
